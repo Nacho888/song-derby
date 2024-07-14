@@ -1,11 +1,24 @@
 # song-derby
 
+Helper application to fetch Spotify's playlist information and assist in creating the structure of a gamified process
+for 'musical democracy'. Uses forms to ease the poll/voting process as well as diagrams accompanying the results for
+easier interpretation.
+
+## Authors
+
+- Óscar Kirschstein Schafer
+- Ignacio Montes Álvarez
+
 ## Installation and usage
 
-1. `sudo apt install python3.12-venv` (or similar if not Debian-based distro)
-2. `python3.12 -m venv .venv`
-3. `source .venv/bin/activate.sh` (for `bash` or `zsh`)
-4. `python -m pip install -r requirements.txt`
+Virtual environment setup for Debian-based distros. Uses Python 3.12.
+
+1. `sudo add-apt-repository ppa:deadsnakes/ppa && sudo apt-get update`
+2. `sudo apt-get install python3.12`
+3. `sudo apt install python3.12-venv`
+4. `python3.12 -m venv .venv`
+5. `source .venv/bin/activate.sh` (for `bash` or `zsh`)
+6. `python -m pip install -r requirements.txt`
 
 ## Roadmap
 
