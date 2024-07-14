@@ -122,7 +122,7 @@ celerybeat.pid
 *.sage.py
 
 # Environments
-.env.credentials
+.env
 .venv
 env/
 venv/
@@ -165,4 +165,5 @@ cython_debug/
 .vscode/
 
 # Other files
-.env.misc
+#.env.misc
+#.env.credentials
