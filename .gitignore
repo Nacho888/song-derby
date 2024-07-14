@@ -163,3 +163,7 @@ cython_debug/
 
 # VSCode
 .vscode/
+
+# Other files
+.env.misc
+.env.credentials

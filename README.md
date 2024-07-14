@@ -20,6 +20,11 @@ Virtual environment setup for Debian-based distros. Uses Python 3.12.
 5. `source .venv/bin/activate.sh` (for `bash` or `zsh`)
 6. `python -m pip install -r requirements.txt`
 
+## Code practices
+
+- Use `black` to format the code with line length set to 100: `python -m black -l 100` (or in deference set it up to automagically format it with your IDE on code save).
+- Use Google-style docstrings: https://sphinxcontrib-napoleon.readthedocs.io/en/latest/example_google.html
+
 ## Roadmap
 
 ### v0 (MVP)

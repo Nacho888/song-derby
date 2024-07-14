@@ -1,0 +1,5 @@
+spotipy==2.24.0
+dacite==1.8.1
+rapidfuzz==3.9.4
+python-dotenv==1.0.1
+black==24.4.2
