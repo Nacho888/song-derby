@@ -165,5 +165,5 @@ cython_debug/
 .vscode/
 
 # Other files
-#.env.misc
-#.env.credentials
+.env.misc
+.env.credentials
